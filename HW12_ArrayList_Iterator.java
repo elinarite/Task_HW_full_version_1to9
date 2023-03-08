@@ -29,6 +29,7 @@ public class HW12_ArrayList_Iterator {
         findCharacter('a');
         findCharacterVariant2('a');
     }
+
 // - заполняют лист рандомными цифрами
     public static ArrayList<Integer> getRandomInteger(ArrayList<Integer> list, int listSizeInteger, int diapason) {
         for (int i = 0; i < listSizeInteger; i++) {
@@ -36,6 +37,7 @@ public class HW12_ArrayList_Iterator {
         }
         return list;
     }
+
  //перебирают Итератором и выводят на экран все четные
     public static void divisibleByTwo(ArrayList<Integer> list) {
         Iterator<Integer> iterator = list.iterator();
@@ -57,6 +59,7 @@ public class HW12_ArrayList_Iterator {
         }
         System.out.println();
     }
+    
     // генерируют рандомную стрингу длиной 5
     public static String getRandomString(String s) {
         char[] word = new char[5];
